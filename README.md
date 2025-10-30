@@ -1,5 +1,5 @@
 # Temperature-controller
-This project is a Temperature Controller System built using an Arduino, DHT11 temperature sensor, and a motor (or fan) driver module. The system continuously monitors the surrounding temperature using the DHT11 sensor and automatically turns ON/OFF the motor or fan based on preset temperature conditions.
+This project is a Temperature Controller System built using an Arduino, DHT11 temperature sensor, and a motor (or fan) driver module. The system continuously monitors the surrounding temperature using the DHT11 sensor and automatically changes the fan speed and heater On/OFF on preset temperature conditions to keep the room temperature normal.
 # 🌡️ Temperature Controller using Arduino
 
 ## 📘 Overview
@@ -38,7 +38,7 @@ The system also displays real-time temperature and humidity on an **LCD screen**
 ## 🔌 Components Used
 | Component | Quantity | Description |
 |------------|-----------|-------------|
-| Arduino Uno / Nano / ESP32 | 1 | Microcontroller board |
+| Arduino Uno Rev3 | 1 | Microcontroller board |
 | DHT11 Sensor | 1 | Temperature and humidity sensor |
 | L293D Motor Driver | 1 | Motor driver IC or module |
 | DC Motor / Fan | 1 | Output fan |
