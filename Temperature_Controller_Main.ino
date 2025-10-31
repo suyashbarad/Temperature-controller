@@ -94,3 +94,4 @@ void loop() {
   lcd.print(temperature);
   lcd.print("C");
 }
+
